@@ -1,0 +1,50 @@
+/* clock_multiply.v
+
+--------------------------------------------------------------------------------------------------------------------
+
+Module Name : clock_multiply.v - Clock Frequency Multiplier
+
+Module Description : Replace by PLL in actual design
+
+Module Author : Arul Prakash Samathuvamani | University of Leeds | hire@arulprakash.dev
+
+					 Akilan Venkatachalam | Anna University | akilanvrka250@gmail.com
+					 
+					 Rashika Azhakesan Krishnamoni | Birla Institute of Science and Tech. | rashikaak@gmail.com
+
+Creation Date : 7/11/2021
+
+Last Modified : 7/11/2021
+
+-------------------------------------------------------------------------------------------------------------------- 
+
+Changelog :
+
+
+
+
+
+*/
+
+
+// This module is to be replace by PLL in actual processor design 
+
+// This module takes in the input and gives out unmodified output. For verification
+// use different clock signals.
+
+
+
+module clock_multiply (
+
+
+	input base_clock,
+	
+	input multiply,
+	
+	output multiplied_freq
+	
+);
+
+
+
+endmodule

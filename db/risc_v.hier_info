@@ -1,0 +1,13 @@
+|risc_v
+base_clock => base_clock.IN1
+reset => ~NO_FANOUT~
+processor_multiply => processor_multiply.IN1
+status << <GND>
+
+
+|risc_v|clock_multiply:multiplier_1
+base_clock => ~NO_FANOUT~
+multiply => ~NO_FANOUT~
+multiplied_freq <= <GND>
+
+
